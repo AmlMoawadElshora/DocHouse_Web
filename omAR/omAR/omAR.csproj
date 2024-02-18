@@ -1,0 +1,464 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A77D618-8CA3-48B1-A1DC-1A0EAEAD1F0F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>omAR</RootNamespace>
+    <AssemblyName>omAR</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44329</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contact\contact.aspx" />
+    <Content Include="contact\css\bootstrap.min.css" />
+    <Content Include="contact\css\owl.carousel.min.css" />
+    <Content Include="contact\css\style.css" />
+    <Content Include="contact\images\undraw-contact.svg" />
+    <Content Include="contact\index.html" />
+    <Content Include="contact\js\bootstrap.min.js" />
+    <Content Include="contact\js\jquery-3.3.1.min.js" />
+    <Content Include="contact\js\main.js" />
+    <Content Include="contact\js\owl.carousel.min.js" />
+    <Content Include="contact\js\popper.min.js" />
+    <Content Include="html\css\animate.min.css" />
+    <Content Include="html\css\bootstrap-grid.css" />
+    <Content Include="html\css\bootstrap-grid.min.css" />
+    <Content Include="html\css\bootstrap-reboot.css" />
+    <Content Include="html\css\bootstrap-reboot.min.css" />
+    <Content Include="html\css\bootstrap.css" />
+    <Content Include="html\css\bootstrap.min.css" />
+    <Content Include="html\css\contact.css" />
+    <Content Include="html\css\d.png" />
+    <Content Include="html\css\default-skin.css" />
+    <Content Include="html\css\doctors.css" />
+    <Content Include="html\css\font-awesome.min.css" />
+    <Content Include="html\css\forgot.css" />
+    <Content Include="html\css\icomoon.css" />
+    <Content Include="html\css\join.css" />
+    <Content Include="html\css\jquery-ui.css" />
+    <Content Include="html\css\jquery.fancybox.min.css" />
+    <Content Include="html\css\jquery.mCustomScrollbar.min.css" />
+    <Content Include="html\css\login.css" />
+    <Content Include="html\css\meanmenu.css" />
+    <Content Include="html\css\nice-select.css" />
+    <Content Include="html\css\normalize.css" />
+    <Content Include="html\css\owl.carousel.min.css" />
+    <Content Include="html\css\reset.css" />
+    <Content Include="html\css\responsive.css" />
+    <Content Include="html\css\signup.css" />
+    <Content Include="html\css\slick.css" />
+    <Content Include="html\css\style.css" />
+    <Content Include="html\css\terms.css" />
+    <Content Include="html\css\user.css" />
+    <Content Include="Global.asax" />
+    <Content Include="html\images\ahmed.jpg" />
+    <Content Include="html\images\amll.jpg" />
+    <Content Include="html\images\ashraf.jpg" />
+    <Content Include="html\images\banner-bg.png" />
+    <Content Include="html\images\banner-img.png" />
+    <Content Include="html\images\call-icon.png" />
+    <Content Include="html\images\d.jpg" />
+    <Content Include="html\images\d.png" />
+    <Content Include="html\images\doc.png" />
+    <Content Include="html\images\doc4.jpg" />
+    <Content Include="html\images\doctor-bg.png" />
+    <Content Include="html\images\doctor-bg1.png" />
+    <Content Include="html\images\farah.jpg" />
+    <Content Include="html\images\fface.png" />
+    <Content Include="html\images\header-bg.png" />
+    <Content Include="html\images\img-1.png" />
+    <Content Include="html\images\img-2.png" />
+    <Content Include="html\images\insta.png" />
+    <Content Include="html\images\logo.png" />
+    <Content Include="html\images\logo.svg" />
+    <Content Include="html\images\mail-icon.png" />
+    <Content Include="html\images\map-bg.png" />
+    <Content Include="html\images\map-icon.png" />
+    <Content Include="html\images\news-bg.png" />
+    <Content Include="html\images\news-img.png" />
+    <Content Include="html\images\omar.jpg" />
+    <Content Include="html\images\play-icon.png" />
+    <Content Include="html\images\toogle-icon.png" />
+    <Content Include="html\images\toogle-icon1.png" />
+    <Content Include="html\images\top.png" />
+    <Content Include="html\images\tw.png" />
+    <Content Include="html\images\userr.png" />
+    <Content Include="html\join us.aspx" />
+    <Content Include="html\js\bootstrap.bundle.js" />
+    <Content Include="html\js\bootstrap.bundle.min.js" />
+    <Content Include="html\js\bootstrap.js" />
+    <Content Include="html\js\bootstrap.min.js" />
+    <Content Include="html\js\custom.js" />
+    <Content Include="html\js\jquery-3.0.0.min.js" />
+    <Content Include="html\js\jquery-3.3.1.min.js" />
+    <Content Include="html\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="html\js\jquery.min.js" />
+    <Content Include="html\js\jquery.v1alidate.min.js" />
+    <Content Include="html\js\jquery.validate.js" />
+    <Content Include="html\js\jquery.validate.min.js" />
+    <Content Include="html\js\main.js" />
+    <Content Include="html\js\modernizer.js" />
+    <Content Include="html\js\owl.carousel.min.js" />
+    <Content Include="html\js\plugin.js" />
+    <Content Include="html\js\popper.min.js" />
+    <Content Include="html\js\slider-setting.js" />
+    <Content Include="html\terms.aspx" />
+    <Content Include="html\terms.html" />
+    <Content Include="html\user.html" />
+    <Content Include="html\WebApplication1\css\animate.min.css" />
+    <Content Include="html\WebApplication1\css\book.css" />
+    <Content Include="html\WebApplication1\css\bootstrap-grid.css" />
+    <Content Include="html\WebApplication1\css\bootstrap-grid.min.css" />
+    <Content Include="html\WebApplication1\css\bootstrap-reboot.css" />
+    <Content Include="html\WebApplication1\css\bootstrap-reboot.min.css" />
+    <Content Include="html\WebApplication1\css\bootstrap.css" />
+    <Content Include="html\WebApplication1\css\bootstrap.min.css" />
+    <Content Include="html\WebApplication1\css\contact.css" />
+    <Content Include="html\WebApplication1\css\d.png" />
+    <Content Include="html\WebApplication1\css\default-skin.css" />
+    <Content Include="html\WebApplication1\css\doc4.jpg" />
+    <Content Include="html\WebApplication1\css\doctors.css" />
+    <Content Include="html\WebApplication1\css\font-awesome.min.css" />
+    <Content Include="html\WebApplication1\css\forgot.css" />
+    <Content Include="html\WebApplication1\css\home.css" />
+    <Content Include="html\WebApplication1\css\home1.css" />
+    <Content Include="html\WebApplication1\css\icomoon.css" />
+    <Content Include="html\WebApplication1\css\join.css" />
+    <Content Include="html\WebApplication1\css\jquery-ui.css" />
+    <Content Include="html\WebApplication1\css\jquery.fancybox.min.css" />
+    <Content Include="html\WebApplication1\css\jquery.mCustomScrollbar.min.css" />
+    <Content Include="html\WebApplication1\css\login.css" />
+    <Content Include="html\WebApplication1\css\meanmenu.css" />
+    <Content Include="html\WebApplication1\css\nice-select.css" />
+    <Content Include="html\WebApplication1\css\normalize.css" />
+    <Content Include="html\WebApplication1\css\owl.carousel.min.css" />
+    <Content Include="html\WebApplication1\css\reset.css" />
+    <Content Include="html\WebApplication1\css\responsive.css" />
+    <Content Include="html\WebApplication1\css\signup.css" />
+    <Content Include="html\WebApplication1\css\slick.css" />
+    <Content Include="html\WebApplication1\css\style.css" />
+    <Content Include="html\WebApplication1\css\terms.css" />
+    <Content Include="html\WebApplication1\css\user.css" />
+    <Content Include="html\WebApplication1\forgot.aspx" />
+    <Content Include="html\WebApplication1\Global.asax" />
+    <Content Include="html\WebApplication1\home.aspx" />
+    <Content Include="html\WebApplication1\images\ahmed.jpg" />
+    <Content Include="html\WebApplication1\images\amll.jpg" />
+    <Content Include="html\WebApplication1\images\as.jpg" />
+    <Content Include="html\WebApplication1\images\ashraf.jpg" />
+    <Content Include="html\WebApplication1\images\banner-bg.png" />
+    <Content Include="html\WebApplication1\images\banner-img.png" />
+    <Content Include="html\WebApplication1\images\call-icon.png" />
+    <Content Include="html\WebApplication1\images\d.jpg" />
+    <Content Include="html\WebApplication1\images\d.png" />
+    <Content Include="html\WebApplication1\images\dc.jpg" />
+    <Content Include="html\WebApplication1\images\doc.png" />
+    <Content Include="html\WebApplication1\images\doc4.jpg" />
+    <Content Include="html\WebApplication1\images\doctor-bg.png" />
+    <Content Include="html\WebApplication1\images\doctor-bg1.png" />
+    <Content Include="html\WebApplication1\images\farah.jpg" />
+    <Content Include="html\WebApplication1\images\fface.png" />
+    <Content Include="html\WebApplication1\images\header-bg.png" />
+    <Content Include="html\WebApplication1\images\img-1.png" />
+    <Content Include="html\WebApplication1\images\img-2.png" />
+    <Content Include="html\WebApplication1\images\insta.png" />
+    <Content Include="html\WebApplication1\images\logo.png" />
+    <Content Include="html\WebApplication1\images\logo.svg" />
+    <Content Include="html\WebApplication1\images\mail-icon.png" />
+    <Content Include="html\WebApplication1\images\map-bg.png" />
+    <Content Include="html\WebApplication1\images\map-icon.png" />
+    <Content Include="html\WebApplication1\images\news-bg.png" />
+    <Content Include="html\WebApplication1\images\news-img.png" />
+    <Content Include="html\WebApplication1\images\omar.jpg" />
+    <Content Include="html\WebApplication1\images\play-icon.png" />
+    <Content Include="html\WebApplication1\images\toogle-icon.png" />
+    <Content Include="html\WebApplication1\images\toogle-icon1.png" />
+    <Content Include="html\WebApplication1\images\top.png" />
+    <Content Include="html\WebApplication1\images\tw.png" />
+    <Content Include="html\WebApplication1\images\useer.jpg" />
+    <Content Include="html\WebApplication1\images\userr.png" />
+    <Content Include="html\WebApplication1\js\bootstrap.bundle.js" />
+    <Content Include="html\WebApplication1\js\bootstrap.bundle.min.js" />
+    <Content Include="html\WebApplication1\js\bootstrap.js" />
+    <Content Include="html\WebApplication1\js\bootstrap.min.js" />
+    <Content Include="html\WebApplication1\js\custom.js" />
+    <Content Include="html\WebApplication1\js\jquery-3.0.0.min.js" />
+    <Content Include="html\WebApplication1\js\jquery-3.3.1.min.js" />
+    <Content Include="html\WebApplication1\js\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="html\WebApplication1\js\jquery.min.js" />
+    <Content Include="html\WebApplication1\js\jquery.validate.js" />
+    <Content Include="html\WebApplication1\js\jquery.validate.min.js" />
+    <Content Include="html\WebApplication1\js\main.js" />
+    <Content Include="html\WebApplication1\js\modernizer.js" />
+    <Content Include="html\WebApplication1\js\owl.carousel.min.js" />
+    <Content Include="html\WebApplication1\js\plugin.js" />
+    <Content Include="html\WebApplication1\js\popper.min.js" />
+    <Content Include="html\WebApplication1\js\slider-setting.js" />
+    <Content Include="html\WebApplication1\Log in.aspx" />
+    <Content Include="html\WebApplication1\reset.aspx" />
+    <Content Include="html\WebApplication1\SignUp.aspx" />
+    <Content Include="html\WebApplication1\WebApplication1.csproj.user" />
+    <Content Include="html\WebForm1.aspx" />
+    <Content Include="html\WebForm2.aspx" />
+    <Content Include="html\WebForm3.aspx" />
+    <Content Include="html\WebForm4.aspx" />
+    <Content Include="html\y.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="contact\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact\contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="html\join us.aspx.cs">
+      <DependentUpon>join us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\join us.aspx.designer.cs">
+      <DependentUpon>join us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="html\terms.aspx.cs">
+      <DependentUpon>terms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\terms.aspx.designer.cs">
+      <DependentUpon>terms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebApplication1\forgot.aspx.cs">
+      <DependentUpon>forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebApplication1\forgot.aspx.designer.cs">
+      <DependentUpon>forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebApplication1\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebApplication1\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebApplication1\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebApplication1\Log in.aspx.cs">
+      <DependentUpon>Log in.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebApplication1\Log in.aspx.designer.cs">
+      <DependentUpon>Log in.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebApplication1\reset.aspx.cs">
+      <DependentUpon>reset.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebApplication1\reset.aspx.designer.cs">
+      <DependentUpon>reset.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebApplication1\SignUp.aspx.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebApplication1\SignUp.aspx.designer.cs">
+      <DependentUpon>SignUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="html\y.aspx.cs">
+      <DependentUpon>y.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="html\y.aspx.designer.cs">
+      <DependentUpon>y.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="html\css\.DS_Store" />
+    <Content Include="html\css\bootstrap-grid.css.map" />
+    <Content Include="html\css\bootstrap-grid.min.css.map" />
+    <Content Include="html\css\bootstrap-reboot.css.map" />
+    <Content Include="html\css\bootstrap-reboot.min.css.map" />
+    <Content Include="html\css\bootstrap.css.map" />
+    <Content Include="html\css\bootstrap.min.css.map" />
+    <Content Include="html\js\.DS_Store" />
+    <Content Include="html\js\bootstrap.bundle.js.map" />
+    <Content Include="html\js\bootstrap.bundle.min.js.map" />
+    <Content Include="html\js\bootstrap.js.map" />
+    <Content Include="html\js\bootstrap.min.js.map" />
+    <Content Include="contact\.DS_Store" />
+    <Content Include="contact\css\.DS_Store" />
+    <Content Include="contact\css\bootstrap.min.css.map" />
+    <Content Include="contact\images\.DS_Store" />
+    <Content Include="contact\fonts\.DS_Store" />
+    <Content Include="html\Site1.Master" />
+    <Content Include="html\WebApplication1\css\.DS_Store" />
+    <Content Include="html\WebApplication1\css\bootstrap-grid.css.map" />
+    <Content Include="html\WebApplication1\css\bootstrap-grid.min.css.map" />
+    <Content Include="html\WebApplication1\css\bootstrap-reboot.css.map" />
+    <Content Include="html\WebApplication1\css\bootstrap-reboot.min.css.map" />
+    <Content Include="html\WebApplication1\css\bootstrap.css.map" />
+    <Content Include="html\WebApplication1\css\bootstrap.min.css.map" />
+    <Content Include="html\WebApplication1\js\.DS_Store" />
+    <Content Include="html\WebApplication1\js\bootstrap.bundle.js.map" />
+    <Content Include="html\WebApplication1\js\bootstrap.bundle.min.js.map" />
+    <Content Include="html\WebApplication1\js\bootstrap.js.map" />
+    <Content Include="html\WebApplication1\js\bootstrap.min.js.map" />
+    <Content Include="html\WebApplication1\images\face.webp" />
+    <None Include="html\WebApplication1\packages.config" />
+    <Content Include="html\WebApplication1\Web.config" />
+    <None Include="html\WebApplication1\Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="html\WebApplication1\Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="html\WebApplication1\WebApplication1.csproj" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63729</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44329/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
