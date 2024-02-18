@@ -1,0 +1,122 @@
+body{
+  background-image: url("../images/doc4.jpg");
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+#header2{
+  position: relative;
+  margin-bottom: 10px;
+}
+#header{
+  margin-bottom: 10px;
+  position: fixed;
+  color:white ;
+  font-style: bold;
+  background: rgb(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-family: Times-new-roman;
+  top: 0px;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 100%;
+}
+#ic{
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #e6faff;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+}
+#on{
+  position: absolute;
+  left: 52px;
+  top: 12px;
+  color: #6666ff;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+}
+#doclink{
+  position: absolute;
+  left: 1090px;
+  top: 12px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#joinlink{
+  position: absolute;
+  left: 1090px;
+  top: 12px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#conlink{
+  position: absolute;
+  left: 1180px;
+  top: 12px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#userlink{
+  position: absolute;
+  left: 1290px;
+  top: 7px;
+}
+
+#incenter{
+  width: 50%;
+  position: relative;
+  margin-left: 330px;
+  margin-top: 85px;
+  height: 520px;.
+  font-family: Times-new-roman;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.40);
+}
+
+
+#head{
+  background: rgba(0, 0, 0, 0.40);
+  color: white;
+  font-size: 36px;
+  height: 50px;
+  padding: 10px;
+  width: 97%;
+}
+#footer{
+  position: relative;
+  color:white ;
+  font-style: bold;
+  background: rgb(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-family: Times-new-roman;
+  bottom: 0px;
+  margin-top: 25px;
+}
+#con{
+  position: absolute;
+  right: 1000px;
+  top: 30px;
+}
+.link1{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#termpage{
+  position: absolute;
+  right: 15px;
+  top: 1px;
+}
+#topbutton{
+  position: fixed;
+  right: 15px;
+  top: 550px;
+}

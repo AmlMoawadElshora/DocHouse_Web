@@ -1,0 +1,159 @@
+body{
+  background-image: url("../images/dc.jpg");
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+#header2{
+  position: relative;
+  margin-bottom: 10px;
+}
+#header{
+  margin-bottom: 10px;
+  position: fixed;
+  color:white ;
+  font-style: bold;
+  background: rgb(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-family: Times-new-roman;
+  top: 0px;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 100%;
+}
+#ic{
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #e6faff;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+}
+#on{
+  position: absolute;
+  left: 52px;
+  top: 12px;
+  color: #3366cc;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+}
+#joinlink{
+  position: absolute;
+  left: 1150px;
+  top: 12px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#conlink{
+  position: absolute;
+  left: 1250px;
+  top: 12px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+
+#incenter{
+  width: 80%;
+  position: relative;
+  margin-left: 250px;
+  margin-top: 85px;
+  height: 460px;
+  margin-bottom: 40px;
+  font-family: Times-new-roman;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.40);
+}
+#head{
+  background: rgba(0, 0, 0, 0.40);
+  color: white;
+  font-size: 36px;
+  height: 50px;
+  padding: 10px;
+  width: 98%;
+}
+#words{
+  margin-top: 20px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: 5px;
+}
+#reg{
+  position: absolute ;
+  left: 220px;
+  width: 102px;
+  height: 30px;
+  top: 210px;
+  background: #204060;
+  color: white;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+  box-shadow: 2px 5px 10px black;
+  border-radius: 5px;
+}
+.have{
+  position: absolute;
+  top: 190px;
+  left: 500px;
+}
+#log{
+  position: absolute ;
+  left: 750px;
+  width: 102px;
+  height: 30px;
+  top: 210px;
+  background: #204060;
+  color: white;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+  box-shadow: 2px 5px 10px black;
+  border-radius: 5px;
+}
+#joinnow{
+  width: 118px;
+  height: 30px;
+  background: #204060;
+  color: white;
+  position: absolute;
+  top: 380px;
+  left: 750px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+  box-shadow: 2px 5px 10px black;
+  border-radius: 5px;
+}
+#footer{
+  position: relative;
+  color:white ;
+  font-style: bold;
+  background: rgb(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-family: Times-new-roman;
+  bottom: 0px;
+  margin-top: 25px;
+  width: 100%;
+}
+#con{
+  position: absolute;
+  right: 1000px;
+  top: 30px;
+}
+.link1{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#termpage{
+  position: absolute;
+  right: 15px;
+  top: 1px;
+}

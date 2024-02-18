@@ -1,0 +1,231 @@
+body{
+  background-image: url("../images/doc4.jpg");
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+}
+#header2{
+  position: relative;
+  margin-bottom: 10px;
+}
+#header{
+  margin-bottom: 10px;
+  position: fixed;
+  color:white ;
+  font-style: bold;
+  background: rgb(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-family: Times-new-roman;
+  top: 0px;
+  margin-bottom: 5px;
+  height: 50px;
+  width: 100%;
+}
+#ic{
+  position: absolute;
+  left: 10px;
+  top: 12px;
+  color: #e6faff;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+}
+#on{
+  position: absolute;
+  left: 52px;
+  top: 12px;
+  color: #6666ff;
+  font-size: 24px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+}
+#doclink{
+  position: absolute;
+  left: 1090px;
+  top: 12px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#joinlink{
+  position: absolute;
+  left: 1090px;
+  top: 12px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#conlink{
+  position: absolute;
+  left: 1180px;
+  top: 12px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#userlink{
+  position: absolute;
+  left: 1290px;
+}
+#incenter{
+  width: 50%;
+  position: relative;
+  margin-left: 330px;
+  margin-top: 85px;
+  height: 1900px;
+  margin-bottom: 40px;
+  font-family: Times-new-roman;
+  font-size: 20px;
+  background: rgba(0, 0, 0, 0.40);
+}
+#head{
+  background: rgba(0, 0, 0, 0.40);
+  color: white;
+  font-size: 36px;
+  height: 50px;
+  padding: 10px;
+  width: 97%;
+}
+#words{
+  margin-top: 20px;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  text-align: 5px;
+}
+#booknow{
+  width: 129px;
+  height: 30px;
+  background: #204060;
+  color: white;
+  position: absolute;
+  top: 560px;
+  left: 535px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+}
+#contactnow{
+  width: 129px;
+  height: 30px;
+  background: #204060;
+  color: white;
+  position: absolute;
+  top: 840px;
+  left: 535px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+}
+#ahmed{
+  border-radius: 55px;
+}
+#ahmed2{
+  position: absolute;
+  top: 1060px;
+  left: 200px;
+}
+#face1{
+  width: 115px;
+  height: 30px;
+  background: #204060;
+  color: white;
+  position: absolute;
+  top: 75px;
+  left: 120px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+}
+#tw1{
+  width: 92px;
+  height: 30px;
+  background: #204060;
+  color: white;
+  position: absolute;
+  top: 75px;
+  left: 280px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  font-size: 24px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+}
+#ashraf{
+  border-radius: 55px;
+  position: absolute;
+  top: 1210px;
+}
+#ashraf2{
+  position: absolute;
+  top: 1235px;
+  left: 200px;
+}
+#omar{
+  border-radius: 55px;
+  position: absolute;
+  top: 1385px;
+}
+#omar2{
+  position: absolute;
+  top: 1410px;
+  left: 200px;
+}
+#farah{
+  border-radius: 55px;
+  position: absolute;
+  top: 1560px;
+}
+#farah2{
+  position: absolute;
+  top: 1585px;
+  left: 200px;
+}
+#aml{
+  border-radius: 55px;
+  position: absolute;
+  top: 1735px;
+}
+#aml2{
+  position: absolute;
+  top: 1760px;
+  left: 200px;
+}
+#footer{
+  position: relative;
+  color:white ;
+  font-style: bold;
+  background: rgb(0, 0, 0, 0.7);
+  font-size: 20px;
+  font-family: Times-new-roman;
+  bottom: 0px;
+  margin-top: 25px;
+}
+#con{
+  position: absolute;
+  right: 1000px;
+  top: 30px;
+}
+.link1{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Times-new-roman;
+  color:  #e6faff;
+}
+#termpage{
+  position: absolute;
+  right: 15px;
+  top: 1px;
+}
+#topbutton{
+  position: fixed;
+  right: 15px;
+  top: 550px;
+}

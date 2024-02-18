@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="omAR.html.Site1" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+       <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DocHouse</title>
+    <asp:ContentPlaceHolder ID="stylesheet" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="headTitle" runat="server"></asp:ContentPlaceHolder>
+     
+</head>
+<body>
+    <style>
+        .copyright_section {
+    position:relative;
+    top:40px;
+    left:0px;
+    width: 100%;
+    float: left;
+    background: rgba(0, 0, 0, 0.70);
+    height: auto;
+}
+
+.copyright_text {
+    width: 100%;
+    float: initial;
+    font-size: 16px;
+    color: white;
+    font-size:20px;
+    font-family:'Times New Roman';
+    margin: 20px 0px;
+    text-align: center;
+}
+.copyright_text a {
+    color: white;
+    text-decoration:none;
+}
+
+.copyright_text a:hover {
+    color: #3674f2;
+}
+    </style>
+    <form id="form1" runat="server">
+         <div id="header"> <div id="header2"><a href="WebForm2.aspx"><span id="ic">Doc</span><span id="on">House</span></a> <span><a id="doclink" href="WebForm4.aspx"> Book</a></span><span><a id="conlink" href="../contact/contact.aspx">Contact us</a></span><a href="y.aspx" id="userlink"><img src="images/userr.png" width="35px" height="35px"></a></div></div>
+  <a id="topbutton" href="#top"><img src="images/top.png" width="50px" height="50px" alt="back to the top"></a>
+  <div align="center"id="incenter">
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder ID="Content_body" runat="server"></asp:ContentPlaceHolder>
+
+        </div>
+<div class="copyright_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <p class="copyright_text">© 2022 All Rights Reserved.<a href="terms.aspx"> Terms and conditions</a></p>
+               </div>
+            </div>
+         </div>
+      </div>
+         <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+
+  
+
+    </form>
+</body>
+</html>
